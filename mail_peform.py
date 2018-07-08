@@ -20,7 +20,7 @@ class MailPerform(object):
         self.driver.find_element_by_name('email').clear()
         self.driver.find_element_by_name('email').send_keys('windsky10@163.com')
         self.driver.find_element_by_name('password').clear()
-        self.driver.find_element_by_name('password').send_keys('19950309bbmmwanm')
+        self.driver.find_element_by_name('password').send_keys('xxxxxxxxxxx')
         # 此处可能会遇到验证码的问题，目前能想到的办法是通过记录cookie来解决，还有一种最简单的自己点一下然后回车下~~
         self.driver.find_element_by_id('dologin').click()
         sleep(5)
