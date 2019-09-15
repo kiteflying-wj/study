@@ -1,0 +1,8 @@
+prefix=/home/jkb/practice/install
+
+Name: practice
+Description: Description of practice
+Version: 0.0.0
+Cflags: -I/home/jkb/practice/install/include
+Libs: -L/home/jkb/practice/install/lib -lpractice
+Requires: roscpp rospy std_msgs message_runtime

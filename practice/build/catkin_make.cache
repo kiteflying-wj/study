@@ -1,0 +1,2 @@
+practice
+-DCATKIN_DEVEL_PREFIX=/home/jkb/practice/devel -DCMAKE_INSTALL_PREFIX=/home/jkb/practice/install -G Unix Makefiles
