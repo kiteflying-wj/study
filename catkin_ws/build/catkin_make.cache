@@ -1,0 +1,2 @@
+mypackage1
+-DCATKIN_DEVEL_PREFIX=/home/jkb/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jkb/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,7 @@
+<launch>
+    <node name="gps_talker" pkg = "mypackage1" type = "gps_talker"> 
+    </node>
+     <node name="gps_listener" pkg = "mypackage1" type = "gps_listener"> 
+    </node>
+    
+</launch>

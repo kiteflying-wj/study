@@ -1,0 +1,8 @@
+prefix=/home/jkb/catkin_ws/install
+
+Name: mypackage1
+Description: Description of mypackage1
+Version: 0.0.0
+Cflags: -I/home/jkb/catkin_ws/install/include
+Libs: -L/home/jkb/catkin_ws/install/lib -lmypackage1
+Requires: roscpp rospy std_msgs message_runtime

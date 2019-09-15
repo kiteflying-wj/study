@@ -1,0 +1,7 @@
+<launch>
+    <node name="talker" pkg = "mypackage1" type = "talker"> 
+    </node>
+     <node name="listener" pkg = "mypackage1" type = "listener"> 
+    </node>
+    
+</launch>
